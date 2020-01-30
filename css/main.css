@@ -1215,6 +1215,12 @@ header .logo a {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
+header .row .col-six h5 {
+	font-size: 1.4rem;
+	line-height: 4.714;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+}
 
 /* navigation panel */
 #main-nav-wrap {
@@ -1800,7 +1806,8 @@ header .logo a {
 	overflow: hidden;
 }
 #portfolio .folio-item img {
-height: 500px;
+	height: 500px;
+	width: 100%;
 	vertical-align: middle;
 
 	-moz-transition: all 0.5s ease-in-out;
